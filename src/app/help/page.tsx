@@ -3,7 +3,7 @@ import { PageShell } from '@/components/shared/page-shell'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
-import { BookOpen, Library, UserCircle } from 'lucide-react'
+import { Library, UserCircle } from 'lucide-react'
 import { mockFaqs } from '@/data/mock-data'
 
 const topics = [
@@ -17,18 +17,13 @@ const topics = [
     description: 'Build shelves, add references, and keep partner-ready context next to your links without clutter.',
     icon: Library,
   },
-  {
-    title: 'Boosts & public profile',
-    description: 'Understand the balance score, verification rails, and how your outreach signals affect visibility.',
-    icon: BookOpen,
-  },
 ]
 
 export default function HelpPage() {
   return (
     <PageShell
       title="Help center"
-      description="Guides for the SBM profile, resource library, boosts, and account basics — in the same green and blue system as the home experience."
+      description="Guides for the SBM profile, resource library, and account basics — in the same green and blue system as the home experience."
       actions={
         <Button asChild className="bg-[#76A13B] text-white hover:bg-[#658d34]">
           <Link href="/contact">Contact support</Link>
@@ -60,7 +55,7 @@ export default function HelpPage() {
         <Card className="h-fit border border-border bg-white shadow-sm">
           <CardContent className="p-6">
             <h3 className="text-lg font-semibold">Popular questions</h3>
-            <p className="mb-3 text-sm text-muted-foreground">Select a topic to expand. Answers are written for the current SBM profile product surface.</p>
+            <p className="mb-3 text-sm text-muted-foreground">Select a topic to expand. Answers are written for the current SBM product surface.</p>
             <Accordion type="single" collapsible className="w-full">
               {mockFaqs.map((faq) => (
                 <AccordionItem key={faq.id} value={faq.id}>

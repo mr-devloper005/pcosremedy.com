@@ -3,8 +3,8 @@
 import Link from 'next/link'
 
 const links = [
-  { name: 'Public Profiles', href: '/profile', key: 'profiles' },
   { name: 'Social Bookmarking', href: '/sbm', key: 'sbm' },
+  { name: 'About Us', href: '/about', key: 'about' },
   { name: 'Privacy', href: '/privacy', key: 'privacy' },
   { name: 'Terms', href: '/terms', key: 'terms' },
   { name: 'Contact', href: '/contact', key: 'contact' },

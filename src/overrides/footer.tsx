@@ -23,7 +23,7 @@ export function FooterOverride() {
         <div className="mt-8 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 text-xs sm:flex-row sm:items-center">
           <p className="inline-flex items-center gap-1.5 text-muted-foreground">
             <Shield className="h-3.5 w-3.5 text-[#76A13B]" />
-            SBM profile experience · sign-in stored locally in this browser
+            PDF document platform · sign-in stored locally in this browser
           </p>
           <p className="text-muted-foreground">
             &copy; {new Date().getFullYear()} {SITE_CONFIG.name}

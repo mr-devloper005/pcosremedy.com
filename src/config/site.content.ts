@@ -2,51 +2,51 @@ import type { TaskKey } from '@/lib/site-config'
 
 export const siteContent = {
   navbar: {
-    tagline: 'SBM profile platform',
+    tagline: 'PDF document platform',
   },
   footer: {
-    tagline: 'SBM profile platform',
+    tagline: 'PDF document platform',
   },
   hero: {
-    badge: 'Public profiles and bookmarking',
-    title: ['Build a stronger public identity with', 'profiles, collections, and saved resources.'],
-    description: 'Pcosremedy is an SBM and profile platform for presenting credibility, organizing links, and keeping public identity structured.',
+    badge: 'PDF documents and bookmarking',
+    title: ['Build a comprehensive document library with', 'PDFs, collections, and saved resources.'],
+    description: 'Pcosremedy is a PDF and bookmarking platform for organizing documents, sharing resources, and keeping content structured.',
     primaryCta: {
       label: 'Open social bookmarking',
       href: '/sbm',
     },
     secondaryCta: {
-      label: 'View public profiles',
-      href: '/profile',
+      label: 'Browse PDF library',
+      href: '/pdf',
     },
-    searchPlaceholder: 'Search profiles, links, and collections',
+    searchPlaceholder: 'Search PDFs, links, and collections',
     focusLabel: 'Focus',
     featureCardBadge: 'platform focus',
-    featureCardTitle: 'Public profiles and saved resources define the homepage experience.',
+    featureCardTitle: 'PDF documents and saved resources define the homepage experience.',
     featureCardDescription:
-      'The content now presents the product clearly as an SBM and profile platform instead of a generic content website.',
+      'The content now presents the product clearly as a PDF and bookmarking platform instead of a generic content website.',
   },
   home: {
     metadata: {
-      title: 'SBM profile platform for public identity and saved resources',
-      description: 'Explore public profiles, social bookmarking collections, and credibility-focused platform surfaces.',
-      openGraphTitle: 'SBM profile platform',
+      title: 'PDF document platform for document sharing and saved resources',
+      description: 'Explore PDF documents, social bookmarking collections, and document-focused platform surfaces.',
+      openGraphTitle: 'PDF document platform',
       openGraphDescription:
-        'Pcosremedy combines public profile pages, social bookmarking, and structured resource libraries in one product.',
-      keywords: ['SBM profile', 'social bookmarking', 'public profiles', 'resource library', 'reputation platform'],
+        'Pcosremedy combines PDF document libraries, social bookmarking, and structured resource libraries in one product.',
+      keywords: ['PDF documents', 'social bookmarking', 'PDF library', 'resource library', 'document platform'],
     },
     introBadge: 'About the platform',
-    introTitle: 'Built for public identity, saved resources, and structured discovery.',
+    introTitle: 'Built for document sharing, saved resources, and structured discovery.',
     introParagraphs: [
-      'This site brings together public profile pages, social bookmarking collections, and supporting content so people can manage identity and resources in one place.',
-      'Instead of looking like a general-purpose content site, the platform is now presented around its actual product purpose: SBM and profile visibility.',
-      'Whether someone starts with a profile page or a bookmark collection, they can continue exploring connected surfaces without losing context.',
+      'This site brings together PDF document libraries, social bookmarking collections, and supporting content so people can manage documents and resources in one place.',
+      'Instead of looking like a general-purpose content site, the platform is now presented around its actual product purpose: PDF and document sharing.',
+      'Whether someone starts with a PDF document or a bookmark collection, they can continue exploring connected surfaces without losing context.',
     ],
     sideBadge: 'At a glance',
     sidePoints: [
-      'Homepage positioned around SBM and public profiles.',
-      'Connected sections for profiles, bookmark shelves, and supporting resources.',
-      'Cleaner discovery flow for reputation and saved links.',
+      'Homepage positioned around PDF documents and libraries.',
+      'Connected sections for documents, bookmark shelves, and supporting resources.',
+      'Cleaner discovery flow for document sharing and saved links.',
       'Simple interface that keeps structure and trust easy to understand.',
     ],
     primaryLink: {
@@ -54,21 +54,21 @@ export const siteContent = {
       href: '/sbm',
     },
     secondaryLink: {
-      label: 'Public profiles',
-      href: '/profile',
+      label: 'PDF library',
+      href: '/pdf',
     },
   },
   cta: {
     badge: 'Start exploring',
-    title: 'Explore public profiles, saved links, and credibility-focused platform sections.',
-    description: 'Pcosremedy is designed as an SBM profile website with clearer product positioning and structured discovery.',
+    title: 'Explore PDF documents, saved links, and document-focused platform sections.',
+    description: 'Pcosremedy is designed as a PDF document website with clearer product positioning and structured discovery.',
     primaryCta: {
       label: 'Open social bookmarking',
       href: '/sbm',
     },
     secondaryCta: {
-      label: 'View public profiles',
-      href: '/profile',
+      label: 'Browse PDF library',
+      href: '/pdf',
     },
   },
   taskSectionHeading: 'Latest {label}',
@@ -78,11 +78,11 @@ export const siteContent = {
 export const taskPageMetadata: Record<Exclude<TaskKey, 'comment' | 'org' | 'social'>, { title: string; description: string }> = {
   article: {
     title: 'Articles and stories',
-    description: 'Articles and related reading inside the broader SBM profile platform.',
+    description: 'Articles and related reading inside the broader PDF document platform.',
   },
   listing: {
     title: 'Listings and discoverable pages',
-    description: 'Structured pages and related content connected to the SBM profile experience.',
+    description: 'Structured pages and related content connected to the PDF document experience.',
   },
   classified: {
     title: 'Classifieds and announcements',
@@ -90,7 +90,7 @@ export const taskPageMetadata: Record<Exclude<TaskKey, 'comment' | 'org' | 'soci
   },
   image: {
     title: 'Images and visual posts',
-    description: 'Visual content and supporting media across the SBM profile website.',
+    description: 'Visual content and supporting media across the PDF document website.',
   },
   profile: {
     title: 'Public profiles',
@@ -120,7 +120,7 @@ export const taskIntroCopy: Record<
     links: [
       { label: 'Read articles', href: '/articles' },
       { label: 'Explore classifieds', href: '/classifieds' },
-      { label: 'Public profiles', href: '/profile' },
+      { label: 'PDF library', href: '/pdf' },
     ],
   },
   article: {
@@ -146,7 +146,7 @@ export const taskIntroCopy: Record<
     links: [
       { label: 'Business listings', href: '/listings' },
       { label: 'Read articles', href: '/articles' },
-      { label: 'Public profiles', href: '/profile' },
+      { label: 'PDF library', href: '/pdf' },
     ],
   },
   image: {
@@ -181,7 +181,7 @@ export const taskIntroCopy: Record<
       'Use this section to organize helpful sources and discover connected content without leaving the broader site experience.',
     ],
     links: [
-      { label: 'Public profiles', href: '/profile' }
+      { label: 'PDF library', href: '/pdf' }
     ],
   },
   pdf: {
@@ -194,7 +194,7 @@ export const taskIntroCopy: Record<
     links: [
       { label: 'Read articles', href: '/articles' },
       { label: 'See listings', href: '/listings' },
-      { label: 'Public profiles', href: '/profile' },
+      { label: 'Social bookmarking', href: '/sbm' },
     ],
   },
   social: {

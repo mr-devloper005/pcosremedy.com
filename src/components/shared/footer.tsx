@@ -19,7 +19,7 @@ const taskIcons: Record<TaskKey, any> = {
 }
 
 const footerLinks = {
-  platform: SITE_CONFIG.tasks.filter((task) => task.enabled).map((task) => ({
+  platform: SITE_CONFIG.tasks.filter((task) => task.enabled && task.key !== 'profile').map((task) => ({
     name: task.label,
     href: task.route,
     icon: taskIcons[task.key] || LayoutGrid,
@@ -69,7 +69,7 @@ export function Footer() {
             <p className="mt-1 text-sm text-[#56604b]">{SITE_CONFIG.description}</p>
           </div>
           <div className="flex flex-wrap gap-3">
-            {enabledTasks.slice(0, 5).map((task) => (
+            {enabledTasks.filter(task => task.key !== 'profile').slice(0, 5).map((task) => (
               <Link key={task.key} href={task.route} className="rounded-lg border border-[#d7deca] bg-white px-3 py-2 text-sm font-medium text-[#1f2617] hover:bg-[#ebefdf]">
                 {task.label}
               </Link>
