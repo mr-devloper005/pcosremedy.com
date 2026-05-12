@@ -1,7 +1,7 @@
 export const siteIdentity = {
   code: process.env.NEXT_PUBLIC_SITE_CODE || '9c57j799bj',
   name: process.env.NEXT_PUBLIC_SITE_NAME || 'Pcosremedy',
-  tagline: process.env.NEXT_PUBLIC_SITE_TAGLINE || 'SBM profile platform',
+  tagline: process.env.NEXT_PUBLIC_SITE_TAGLINE || 'PDF document platform',
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
     'A public profile and social bookmarking platform for managing identity, saved resources, and credibility signals in one experience.',
